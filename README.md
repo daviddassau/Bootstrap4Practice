@@ -12,7 +12,7 @@
 ### Cards
 - There are a lot of classes that handling styling in **Cards**
   - You create a `<section></section>` for each card, and give it a class of `card`
-  - You can use the `card-title` & `card-subtitle` classes for the header(s) of your card.
+  - You can use the `card-title` & `card-subtitle` classes for the header(s) of your card. In addition, you can use the `card-header` class, which will give it a different look. With this, you are free to use a H1, H2, DIV, etc.
   - You can use the `card-text` class for the main body of text in your card.
   - It's a good idea to wrap all of your text, excluding the image, in a class called `card-block`. This will add some padding to the sides, so the text isn't butting up against the borders of the card.
   - Use the `card-img` and `img-fluid` for the images inside your card.
